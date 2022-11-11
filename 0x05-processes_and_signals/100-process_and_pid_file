@@ -12,9 +12,9 @@ terminator() {
 	exit
 }
 
-echo "$$" > /var/run/myscript.pid
+echo $$ > /var/run/myscript.pid
 
-while true
+while :
 do
 	echo "To infinity and beyond"
 	sleep 2
