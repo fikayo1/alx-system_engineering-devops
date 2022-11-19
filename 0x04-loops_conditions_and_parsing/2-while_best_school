@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 # A bash script that displays "Best School" 10 time using while loop
 
 c=0
