@@ -1,0 +1,10 @@
+#!/usr/bin/bash
+# A bash script that displays "Best School" 10 time using while loop
+
+c=0
+
+while [ $c -lt 10 ]
+do
+	echo "Best School"
+	((c++))
+done
