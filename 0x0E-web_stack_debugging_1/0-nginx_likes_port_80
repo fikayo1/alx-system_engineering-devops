@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#Fix Ubuntu container nginx running and listening on port 80
+# fix Ubuntu container's to listen on port 80
 
 new="80 default_server"
 old="8080 default_server"
